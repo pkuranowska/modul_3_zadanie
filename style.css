@@ -44,3 +44,64 @@ section {
     margin: 0 36px 0 0;
     position: relative;
 }
+
+/* Splash */
+
+.splash {
+    background-color: #ffffff;
+    height: 500px;
+    color: #000;
+    display: flex;
+}
+
+.splash-inner {
+    margin: auto;
+    max-width: 70%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+}    
+
+h2 {
+    margin: 24px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.page-title span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color: inherit;
+    background-position: 100% 0;
+    background-size: 300%;
+}
+
+.btn-one {
+    border-color: #000000;
+    color: #000000;
+}
+
+.btn:hover {
+    background-position: 0 100%;
+    color: #000000;
+}
+
+.btn-one:hover {
+    color: #000000;
+}
