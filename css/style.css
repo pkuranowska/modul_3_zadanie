@@ -1,6 +1,4 @@
 /* Variables */
-/*green*/
-/*blue*/
 /* Global */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -11,7 +9,8 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-family: "Montserrat";
-  color: #2c2c54;
+  color: #000;
+  text-align: center;
 }
 
 p {
@@ -28,10 +27,29 @@ section {
   padding: 96px 0;
 }
 
+.main-photo {
+  position: relative;
+  background-image: url("https://i.postimg.cc/V6ptT0S1/zdjecie-glowne.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* Navigation */
 nav {
-  background-color: #0097e6;
   padding: 12px 0;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navigation p {
+  color: #fed136;
+  font-family: "Lobster";
 }
 
 .navigation ul {
@@ -49,10 +67,81 @@ nav {
 .navigation a {
   text-decoration: none;
   color: #fff;
+  font-size: 13px;
 }
 
 .navigation ul ul li {
   display: block;
   margin: 0 0 12px 0;
+}
+
+/* Splash */
+.splash {
+  height: 500px;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+h1 {
+  margin: 30px 0;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Lobster";
+}
+
+.button {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 10px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  background: #fed136;
+  color: #000;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Services */
+/* Our Portfolio */
+/* Footer */
+.page-footer ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer .icon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.page-footer .icon i {
+  font-size: 30px;
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
