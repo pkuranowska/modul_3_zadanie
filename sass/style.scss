@@ -1,0 +1,67 @@
+/* Variables */
+
+$color-one: #33d9b2; /*green*/
+$color-two: #0097e6;  /*blue*/
+$color-three: #ff5252; 
+$color-text1: #fff;
+$color-text2: #2c2c54;
+$font-text: 'Montserrat', ;
+$font-header: 'Montserrat', ;
+$transition: all 1s;
+
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+    color: $color-text2;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 96px 0;
+}
+
+/* Navigation */
+
+nav {
+    background-color: $color-two;
+    padding: 12px 0;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 36px 0 0;
+    position: relative;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: $color-text1;
+}
+
+.navigation ul ul li {
+    display: block;
+    margin: 0 0 12px 0;
+}
