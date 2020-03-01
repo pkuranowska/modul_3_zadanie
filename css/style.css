@@ -200,16 +200,36 @@ h2 {
 }
 
 /* Footer */
+.page-footer {
+  margin: 30px 0;
+}
+
+.page-footer .col-4 p {
+  font-size: 10px;
+  color: #777777;
+  font-family: "Montserrat";
+  margin: 5px;
+  font-weight: bold;
+}
+
 .page-footer ul {
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
+.page-footer ul li {
+  list-style-type: none;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
 .page-footer .icon {
-  width: 60px;
-  height: 60px;
-  background: #fff;
+  width: 30px;
+  height: 30px;
+  background: #000;
   border-radius: 50%;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -220,7 +240,14 @@ h2 {
 }
 
 .page-footer .icon i {
-  font-size: 30px;
-  color: #000;
+  font-size: 12px;
+  color: #fff;
+}
+
+.page-footer .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
 }
 /*# sourceMappingURL=style.css.map */
