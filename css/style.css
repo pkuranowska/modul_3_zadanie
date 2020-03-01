@@ -27,12 +27,15 @@ section {
   padding: 96px 0;
 }
 
-h4 {
-  font-size: 18px;
-  letter-spacing: 1px;
+h1 {
+  margin: 30px 0;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
   font-family: "Lobster";
-  color: #777777;
-  margin: 0 0 60px 0;
+  font-size: 30px;
 }
 
 h3 {
@@ -41,11 +44,25 @@ h3 {
   font-family: "Montserrat";
 }
 
+h4 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Lobster";
+  color: #777777;
+  margin: 0 0 60px 0;
+}
+
 h5 {
   font-size: 17px;
   font-family: "Montserrat";
   font-weight: bold;
   color: #000;
+}
+
+h6 {
+  font-size: 14px;
+  color: #777777;
+  font-family: "Lobster";
 }
 
 .main-photo {
@@ -102,16 +119,6 @@ nav {
 .splash-inner {
   margin: auto;
   max-width: 70%;
-}
-
-h1 {
-  margin: 30px 0;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-h2 {
-  font-family: "Lobster";
 }
 
 .button {
@@ -182,10 +189,6 @@ h2 {
   background: #fff;
 }
 
-.our-portfolio .column img {
-  max-height: 300px;
-}
-
 .our-portfolio .column h5 {
   text-align: center;
   padding: 15px 0 0 0;
@@ -193,10 +196,11 @@ h2 {
 }
 
 .our-portfolio .column h6 {
-  font-size: 12px;
-  color: #777777;
-  font-family: "Lobster";
   margin: 0 0 20px 0;
+}
+
+.our-portfolio .column img {
+  max-height: 300px;
 }
 
 /* Footer */
@@ -204,7 +208,7 @@ h2 {
   margin: 30px 0;
 }
 
-.page-footer .col-4 p {
+.page-footer .col-md-4 p {
   font-size: 10px;
   color: #777777;
   font-family: "Montserrat";
@@ -249,5 +253,89 @@ h2 {
   display: flex;
   -ms-flex-pack: start;
       justify-content: flex-start;
+}
+
+/* Media */
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  .row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .navigation a {
+    font-size: 11px;
+  }
+  .navigation p {
+    margin: 10px 0;
+    font-size: 25px;
+  }
+  .navigation li {
+    margin: 0 15px 0 0;
+  }
+  section .services {
+    padding: 20px 0;
+  }
+  .services .col-md-4 {
+    margin-bottom: 35px;
+  }
+  .services .col-md-4:last-of-type {
+    margin-bottom: 10px;
+  }
+  section .our-portfolio {
+    padding: 0;
+    margin: 0;
+  }
+  .our-portfolio .row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin: 0 auto;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .our-portfolio .column {
+    width: 290px;
+    margin: 20px 0;
+    padding: 0;
+  }
+  .our-portfolio .column img {
+    max-height: 300px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  section .services {
+    padding-top: 40px;
+  }
+  h1 {
+    margin: 15px 0;
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 15px;
+    margin: 0 0 30px 0;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 17px;
+  }
+  .page-footer .container {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .page-footer ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
