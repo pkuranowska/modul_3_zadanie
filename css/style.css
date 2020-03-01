@@ -27,6 +27,27 @@ section {
   padding: 96px 0;
 }
 
+h4 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Lobster";
+  color: #777777;
+  margin: 0 0 60px 0;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+h5 {
+  font-size: 17px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #000;
+}
+
 .main-photo {
   position: relative;
   background-image: url("https://i.postimg.cc/V6ptT0S1/zdjecie-glowne.jpg");
@@ -68,11 +89,6 @@ nav {
   text-decoration: none;
   color: #fff;
   font-size: 13px;
-}
-
-.navigation ul ul li {
-  display: block;
-  margin: 0 0 12px 0;
 }
 
 /* Splash */
@@ -119,6 +135,27 @@ h2 {
 }
 
 /* Services */
+.services .row i {
+  margin: 0 0 20px 0;
+  color: #fed136;
+  font-size: 30px;
+  width: 65px;
+  height: 65px;
+  line-height: 60px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fed136;
+}
+
+.services .row p {
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: #777777;
+  font-weight: bold;
+  padding: 0 14px;
+}
+
 /* Our Portfolio */
 /* Footer */
 .page-footer ul {
